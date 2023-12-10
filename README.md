@@ -1,12 +1,12 @@
-#Shader Variant Generator
+### Shader Variant Generator
 
-Overview
+## Overview
 
 The Shader Variant Generator is a Unity Editor tool that automates the generation of material variants based on a target material. It allows you to create multiple material instances with randomized property values, supporting features such as HDR variations and texture assignments.
 
-Getting Started
+## Getting Started
 
-Installation
+# Installation
 
 Open your Unity project.
 
@@ -14,7 +14,7 @@ Copy the ShaderVariantGenerator.cs script into your project's Editor folder.
 
 The tool can be accessed from the Unity Editor under Tools > Shader Variant Generator.
 
-Usage
+# Usage
 
 Open the Shader Variant Generator window by navigating to Tools > Shader Variant Generator.
 
@@ -34,8 +34,11 @@ If Texture Variants is enabled, provide the path to a folder containing texture 
 
 Click the "Generate Variants" button to create the material variants.
 
-Notes
+# Notes
 
 Material variants are saved in the Assets/Variants directory.
 
 If the specified folder for textures is empty, a warning will be displayed.
+
+![image](https://github.com/semiromest/ShaderVariantGenerator/assets/81243425/e1b8dc1c-c687-4b00-b0c9-177d5caaf8cd)
+
